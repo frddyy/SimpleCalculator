@@ -1,4 +1,5 @@
 package b11.calculator;
+
 public class CalculatorOperations {
     public static double calculate(int a, int b, int operator) {
         switch (operator) {

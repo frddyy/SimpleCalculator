@@ -26,8 +26,14 @@ public class CalculatorTest {
     }
 
     @Test
-    public void testDivisionByZero() {
-        assertEquals(Double.NaN, CalculatorOperations.calculate(5, 0, 4), 0.0, "Division by zero test failed");
+    void testDivisionByZeroProducesInfinity() {
+        assertEquals(Double.POSITIVE_INFINITY, CalculatorOperations.calculate(5, 0, 4),
+                "Division by zero should return POSITIVE_INFINITY");
+    }
+
+    @Test
+    void testZeroDivisionByZeroProducesNaN() {
+        assertEquals(Double.NaN, CalculatorOperations.calculate(0, 0, 4), "0 divided by zero should return NaN");
     }
 
     @Test
