@@ -3,5 +3,6 @@ Simple Calculator merupakan program kalkulator sederhana yang memungkinkan pengg
 
 ## Instalasi
 Clone repositori ini ke komputer Anda, dengan cara:
-
-`git clone https://github.com/frddyy/SimpleCalculator.git`
+```
+git clone https://github.com/frddyy/SimpleCalculator.git
+```
