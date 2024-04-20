@@ -1,6 +1,5 @@
 # SimpleCalculator
-Simple Calculator merupakan program kalkulator sederhana yang memungkinkan pengguna untuk melakukan operasi matematika dasar seperti penjumlahan, pengurangan, perkalian, dan pembagian. Dengan antarmuka yang mudah digunakan, pengguna dapat dengan cepat memasukkan operand dan memilih operator yang diinginkan. Aplikasi ini juga dilengkapi dengan proses validasi untuk memastikan keakuratan perhitungan.
-
+Simple Calculator merupakan sebuah program kalkulator sederhana yang memungkinkan pengguna untuk melakukan operasi matematika dasar seperti penjumlahan, pengurangan, perkalian, dan pembagian berdasarkan dua buah operand yang diinputkan user. Dengan antarmuka yang mudah digunakan, pengguna dapat dengan cepat memasukkan operand dan memilih operator yang ingin dikalkulasikan. Aplikasi ini juga dilengkapi dengan proses validasi untuk memastikan keakuratan perhitungan yang baik.
 
 
 ## Author 
@@ -56,14 +55,14 @@ git clone https://github.com/frddyy/SimpleCalculator.git
 
 
 ### Script For Testing Program   
-1. Junit
+Junit
 ```
 ./gradle test
 ```
 
 ### Generate Report
 Setelah melakukan command untuk testing program kalkulator kami, hasil dan laporan testing tersebut akan di-generate dan disimpan pada lokasi :
-1. Test Report With JUnit:
+Test Report With JUnit:
 ```
 app\build\reports\tests\test\index.html
 ```
@@ -71,7 +70,7 @@ app\build\reports\tests\test\index.html
 ## Dependencies Used
 Kami menambahkan beberapa dependency yang digunakan untuk menunjang kebutuhan program kami untuk dapat dijalankan dengan baik, Dependency tersebut antara lain : 
 1. *testImplementation* : 'org.junit.jupiter:junit-jupiter:5.9.1'
-    Digunakan untuk melakukan pengujian (testing) dalam project kami. Dengan dependency ini kami dapat menuliskan unit test apa saja yang ingin diujikan menggunakan fitur-fitur yang disediakan oleh JUnit Jupiter
+    - Digunakan untuk melakukan pengujian (testing) dalam project kami. Dengan dependency ini kami dapat menuliskan unit test apa saja yang ingin diujikan menggunakan fitur-fitur yang disediakan oleh JUnit Jupiter
 2. *implementation* : 'com.google.guava:guava:31.1-jre'
-    Digunakan oleh aplikasi kami untuk mendukung class dan utility method yang tidak tersedia dalam JDK Standar. 
+    - Digunakan oleh aplikasi kami untuk mendukung class dan utility method yang tidak tersedia dalam JDK Standar. 
 
