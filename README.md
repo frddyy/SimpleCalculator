@@ -62,17 +62,15 @@ Junit
 
 ### Generate Report
 Setelah melakukan command untuk testing program kalkulator kami, hasil dan laporan testing tersebut akan di-generate dan disimpan pada lokasi :
-```
-Test Report With JUnit:
-```
+
 app\build\reports\tests\test\index.html
 ```
 
 ### Test Report - Testing With JUnit
 - Program kalkulator kami diujikan menggunakan tools JUnit untuk memastikan fungsionalitasnya apakah sudah baik dan berjalan sesuai dengan yang diharapkan atau tidak. 
-```
+
 AdapunHasil dari pengujian sebagai berikut:
-```
+
   - Jumlah Total Tests: 18
   - Successful: 18 
   - Success Rate : 100%
