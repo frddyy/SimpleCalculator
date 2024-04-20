@@ -62,10 +62,25 @@ Junit
 
 ### Generate Report
 Setelah melakukan command untuk testing program kalkulator kami, hasil dan laporan testing tersebut akan di-generate dan disimpan pada lokasi :
+```
 Test Report With JUnit:
 ```
 app\build\reports\tests\test\index.html
 ```
+
+### Test Report - Testing With JUnit
+- Program kalkulator kami diujikan menggunakan tools JUnit untuk memastikan fungsionalitasnya apakah sudah baik dan berjalan sesuai dengan yang diharapkan atau tidak. 
+```
+AdapunHasil dari pengujian sebagai berikut:
+```
+  - Jumlah Total Tests: 18
+  - Successful: 18 
+  - Success Rate : 100%
+  - Failures : 0
+  - Ignored : 0
+  - Total Duration : 0.038s
+
+![Laporan Pengujian JUnit](https://drive.google.com/file/d/1msJp6JQSRwXCq__KzydalcFOKy79ytHC/view?usp=drive_link)
 
 ## Dependencies Used
 Kami menambahkan beberapa dependency yang digunakan untuk menunjang kebutuhan program kami untuk dapat dijalankan dengan baik, Dependency tersebut antara lain : 
