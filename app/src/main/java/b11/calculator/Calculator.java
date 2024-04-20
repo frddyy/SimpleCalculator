@@ -1,4 +1,5 @@
 package b11.calculator;
+
 import java.util.Scanner;
 
 public class Calculator {
@@ -11,7 +12,7 @@ public class Calculator {
         System.out.println("======================================");
         System.out.print("Masukkan bilangan pertama: ");
         int bilangan1 = getInput(scanner);
-        
+
         System.out.print("Masukkan bilangan kedua: ");
         int bilangan2 = getInput(scanner);
 
@@ -35,10 +36,16 @@ public class Calculator {
         scanner.close();
     }
 
-    public static int getInput(Scanner scanner) {
+    public static short getInput(Scanner scanner) {
         while (true) {
             if (scanner.hasNextInt()) {
-                return scanner.nextInt();
+                int input = scanner.nextInt();
+                if (input >= Short.MIN_VALUE && input <= Short.MAX_VALUE) {
+                    return (short) input; // Mengonversi int ke short
+                } else {
+                    System.out.println(
+                            "Error: Masukkan angka dalam rentang " + Short.MIN_VALUE + " hingga " + Short.MAX_VALUE);
+                }
             } else {
                 System.out.println("Error: Masukkan angka yang valid");
                 scanner.next(); // Meminta ulang user untuk input angka
