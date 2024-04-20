@@ -78,7 +78,7 @@ AdapunHasil dari pengujian sebagai berikut:
   - Ignored : 0
   - Total Duration : 0.038s
 
-![Laporan Pengujian JUnit](https://drive.google.com/file/d/1msJp6JQSRwXCq__KzydalcFOKy79ytHC/view?usp=drive_link)
+![Laporan Pengujian JUnit](https://drive.google.com/file/d/1Gr4c0-1I3ZjpeaAAWlpLmqF99gbuNvUL/view?usp=sharing)
 
 ## Dependencies Used
 Kami menambahkan beberapa dependency yang digunakan untuk menunjang kebutuhan program kami untuk dapat dijalankan dengan baik, Dependency tersebut antara lain : 
