@@ -44,23 +44,28 @@ Program kalkulator sederhana kelompok kami diujikan secara methode per-method de
 1. Lakukan instalasi Java JDK versi 17 atau versi terbarunya.
 2. Pastikan instalasi tersebut berhasil dan dapat digunakan pada perangkat anda.
 3. Clone repository ini ke perangkat anda dengan cara:
-`git clone https://github.com/frddyy/SimpleCalculator.git`
-4. Open project yang telah di clone menggunakan IDE favorit Anda. Saya sarankan menggunakan Visual Studio Code agar lebih mudah.
+```
+git clone https://github.com/frddyy/SimpleCalculator.git
+```
+5. Open project yang telah di clone menggunakan IDE favorit Anda. Saya sarankan menggunakan Visual Studio Code agar lebih mudah.
    
 ### Script For Run Program
-
+```
 ./gradle run
+```
 
 
 ### Script For Testing Program   
 1. Junit
-
+```
 ./gradle test
+```
 
 ### Generate Report
 Setelah melakukan command untuk testing program kalkulator kami, hasil dan laporan testing tersebut akan di-generate dan disimpan pada lokasi :
-
+```
 *Test Report With JUnit*: app\build\reports\tests\test\index.html
+```
 
 ## Dependencies Used
 Kami menambahkan beberapa dependency yang digunakan untuk menunjang kebutuhan program kami untuk dapat dijalankan dengan baik, Dependency tersebut antara lain : 
