@@ -63,7 +63,7 @@ Junit
 ### Generate Report
 Setelah melakukan command untuk testing program kalkulator kami, hasil dan laporan testing tersebut akan di-generate dan disimpan pada lokasi :
 ```
-app\build\reports\tests\test\index.html
+app\build\reports\tests\test\index.html atau b11.calculator.html
 ```
 
 ### Test Report - Testing With JUnit
