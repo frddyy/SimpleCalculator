@@ -85,9 +85,17 @@ Berdasarkan keterangan dari gambar diatas, dapat disimpulkan bahwa dari 18 tests
 - 13 Test dari Class CalculatorTest 
 menghasilkan hasil pengujian dimana seluruhnya dapat dijalankan secara PASSED dibuktikan dengan keterangan pada success rate 100% pada setiap Class. Rincian pengujian pada setiap Class ditunjukkan pada gambar berikut : 
 
-![Class CalculatorTest](https://drive.google.com/uc?export=view&id=18HKADoRhzWsxgURU7XOlphwNEz3zsgbb)
+![Class CalculatorTest](https://drive.google.com/uc?export=view&id=1kw2S9IfE0r90WZpCx5we8idoSJ427c6r)
 
-![Class CalculatorOperationsTest](https://drive.google.com/uc?export=view&id=1SkDqXgyXqJUXS5vyyXjLOvBeu8uxH6pD)
+![Class CalculatorOperationsTest](https://drive.google.com/uc?export=view&id=1jFfBoJmuV0WzwtHLw4doeAbMcRpjKJFU)
+
+Adapun keterangan tambahan lainnya yaitu : 
+- Total duration yang dihasilkan adalah 0.038s dengan rincian pada Class CalculatorTest 0.025s dan Class CalculatorOperationsTest 0.013s.
+- 0 Failures menunjukkan bahwa tidak ada test script (unit test) yang menghasilkan hasil pengujian berupa FAIL
+- 0 Ignored menunjukkan bahwa tidak ada test script (unit test) yang terlewat atau dihiraukan.
+
+Untuk membuktikan bahwa pengujian kami mendeteksi kesalahan atau tidak, dilakukan juga pengujian pada program yang salah seperti berikut :
+
 
 ## Dependencies Used
 Kami menambahkan beberapa dependency yang digunakan untuk menunjang kebutuhan program kami untuk dapat dijalankan dengan baik, Dependency tersebut antara lain : 
