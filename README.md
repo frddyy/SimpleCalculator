@@ -83,6 +83,7 @@ Adapun Hasil dari pengujian sebagai berikut:
 Berdasarkan keterangan dari gambar diatas, dapat disimpulkan bahwa dari 18 tests (pengujian) yang tersedia : 
 - 5 Tests dari Class CalculatorOperationsTest
 - 13 Test dari Class CalculatorTest 
+
 menghasilkan hasil pengujian dimana seluruhnya dapat dijalankan secara **PASSED** dibuktikan dengan keterangan pada **success rate 100%** pada setiap Class. Rincian pengujian pada setiap Class ditunjukkan pada gambar berikut : 
 
 ![Class CalculatorTest](https://drive.google.com/uc?export=view&id=1kw2S9IfE0r90WZpCx5we8idoSJ427c6r)
