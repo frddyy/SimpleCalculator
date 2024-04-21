@@ -69,7 +69,7 @@ app\build\reports\tests\test\index.html
 ### Test Report - Testing With JUnit
 - Program kalkulator kami diujikan menggunakan tools JUnit untuk memastikan fungsionalitasnya apakah sudah baik dan berjalan sesuai dengan yang diharapkan atau tidak. 
 
-AdapunHasil dari pengujian sebagai berikut:
+Adapun Hasil dari pengujian sebagai berikut:
 
   - Jumlah Total Tests: 18
   - Successful: 18 
@@ -78,7 +78,8 @@ AdapunHasil dari pengujian sebagai berikut:
   - Ignored : 0
   - Total Duration : 0.038s
 
-![Laporan Pengujian JUnit](https://drive.google.com/file/d/1Gr4c0-1I3ZjpeaAAWlpLmqF99gbuNvUL/view)
+![Laporan Pengujian JUnit](https://drive.google.com/uc?export=view&id=1Gr4c0-1I3ZjpeaAAWlpLmqF99gbuNvUL)
+
 
 ## Dependencies Used
 Kami menambahkan beberapa dependency yang digunakan untuk menunjang kebutuhan program kami untuk dapat dijalankan dengan baik, Dependency tersebut antara lain : 
