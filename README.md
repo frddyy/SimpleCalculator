@@ -83,7 +83,7 @@ Adapun Hasil dari pengujian sebagai berikut:
 Berdasarkan keterangan dari gambar diatas, dapat disimpulkan bahwa dari 18 tests (pengujian) yang tersedia : 
 - 5 Tests dari Class CalculatorOperationsTest
 - 13 Test dari Class CalculatorTest 
-menghasilkan hasil pengujian dimana seluruhnya dapat dijalankan secara PASSED dibuktikan dengan keterangan pada success rate 100% pada setiap Class. Rincian pengujian pada setiap Class ditunjukkan pada gambar berikut : 
+menghasilkan hasil pengujian dimana seluruhnya dapat dijalankan secara **PASSED** dibuktikan dengan keterangan pada **success rate 100%** pada setiap Class. Rincian pengujian pada setiap Class ditunjukkan pada gambar berikut : 
 
 ![Class CalculatorTest](https://drive.google.com/uc?export=view&id=1kw2S9IfE0r90WZpCx5we8idoSJ427c6r)
 
@@ -94,8 +94,23 @@ Adapun keterangan tambahan lainnya yaitu :
 - 0 Failures menunjukkan bahwa tidak ada test script (unit test) yang menghasilkan hasil pengujian berupa FAIL
 - 0 Ignored menunjukkan bahwa tidak ada test script (unit test) yang terlewat atau dihiraukan.
 
-Untuk membuktikan bahwa pengujian kami mendeteksi kesalahan atau tidak, dilakukan juga pengujian pada program yang salah seperti berikut :
+Untuk membuktikan bahwa pengujian kami mendeteksi kesalahan atau tidak, dilakukan juga pengujian pada program yang salah dengan skenario seperti berikut :
+1. Pada code program bagian operasi tambah kami ubah logika perhitunganya menjadi (-) sehingga yang seharusnya penjumlahan menjadi pengurangan
+2. Test Dijalankan dengan ./gradlew test
+3. Hasil nya didapatkan sebagai berikut
 
+![Test Report Mendeteksi Failed](https://drive.google.com/uc?export=view&id=1IsxxU4OeZxWZDH37_QSOSFbSlQ_eCTLE)
+
+4. Dari 18 tests yang tersedia, terdapat 2 failures yang artinya 2 unit test menghasilkan hasil pengujian **FAILED**, sehingga success rate menurun menjadi **88% successfull**
+5. Adapun rincian tampilan pada masing-masing Class nya yaitu
+
+![Class CalculatorTest](https://drive.google.com/uc?export=view&id=14ljvd1SFBGUChLxzBbot0TCE99XKS3uF)
+
+6. Mendeteksi 1 failures dengan tingkat success rate 92% successful pada testValidOperatorAddition() - (pengujian untuk validasi operator tambah)
+
+![Class CalculatorOperationsTest](https://drive.google.com/uc?export=view&id=1eNkUhA8ENS6ovJH2trp2rWaIAPEcBH_s)
+
+7. Mendeteksi 1 failures dengan tingkat success rate 80% successful pada testAddition() - (pengujian untuk operasi tambah)
 
 ## Dependencies Used
 Kami menambahkan beberapa dependency yang digunakan untuk menunjang kebutuhan program kami untuk dapat dijalankan dengan baik, Dependency tersebut antara lain : 
