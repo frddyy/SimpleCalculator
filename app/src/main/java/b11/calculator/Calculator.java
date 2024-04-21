@@ -36,16 +36,10 @@ public class Calculator {
         scanner.close();
     }
 
-    public static short getInput(Scanner scanner) {
+    public static int getInput(Scanner scanner) {
         while (true) {
             if (scanner.hasNextInt()) {
-                int input = scanner.nextInt();
-                if (input >= Short.MIN_VALUE && input <= Short.MAX_VALUE) {
-                    return (short) input; // Mengonversi int ke short
-                } else {
-                    System.out.println(
-                            "Error: Masukkan angka dalam rentang " + Short.MIN_VALUE + " hingga " + Short.MAX_VALUE);
-                }
+                return scanner.nextInt();
             } else {
                 System.out.println("Error: Masukkan angka yang valid");
                 scanner.next(); // Meminta ulang user untuk input angka
