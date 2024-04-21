@@ -66,8 +66,8 @@ Setelah melakukan command untuk testing program kalkulator kami, hasil dan lapor
 app\build\reports\tests\test\index.html atau b11.calculator.html
 ```
 
-### Test Report - Testing With JUnit
-Program kalkulator kami diujikan menggunakan tools JUnit untuk memastikan fungsionalitasnya apakah sudah baik dan berjalan sesuai dengan yang diharapkan atau tidak. 
+### Test Report - Testing With Gradle & JUnit
+Program kalkulator kami diujikan menggunakan tools Gradle & JUnit untuk memastikan fungsionalitasnya apakah sudah baik dan berjalan sesuai dengan yang diharapkan atau tidak. 
 
 Adapun Hasil dari pengujian sebagai berikut:
 
@@ -102,7 +102,7 @@ Untuk membuktikan bahwa pengujian kami mendeteksi kesalahan atau tidak, dilakuka
 
 ![Test Report Mendeteksi Failed](https://drive.google.com/uc?export=view&id=1IsxxU4OeZxWZDH37_QSOSFbSlQ_eCTLE)
 
-4. Dari 18 tests yang tersedia, terdapat 2 failures yang artinya 2 unit test menghasilkan hasil pengujian **FAILED**, sehingga success rate menurun menjadi **88% successfull**
+4. Dari 18 tests yang tersedia, terdapat 2 failures yang artinya 2 unit test menghasilkan hasil pengujian **FAILED**, sehingga success rate menurun menjadi **88% successful**
 5. Adapun rincian tampilan pada masing-masing Class nya yaitu
 
 ![Class CalculatorTest](https://drive.google.com/uc?export=view&id=14ljvd1SFBGUChLxzBbot0TCE99XKS3uF)
