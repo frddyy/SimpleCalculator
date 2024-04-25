@@ -44,34 +44,28 @@ Program kalkulator sederhana kelompok kami diujikan secara metode per-method den
 
 ## Tabel Tujuan Pengujian
 
-### Metode main
-- Mengujikan operasi yang valid dengan bilangan yang sesuai.
-- Pengujian dengan operand pertama tidak valid.
-- Pengujian dengan operand kedua tidak valid.
-- Pengujian dengan pilihan operator yang tidak valid.
+| No. | Metode                | Tujuan Pengujian                                                         |
+| --- | --------------------- | ------------------------------------------------------------------------- |
+| 1   | Metode main           | - Mengujikan operasi yang valid dengan bilangan yang sesuai.             |
+|     |                       | - Pengujian dengan operand pertama tidak valid.                          |
+|     |                       | - Pengujian dengan operand kedua tidak valid.                            |
+|     |                       | - Pengujian dengan pilihan operator yang tidak valid.                    |
+| 2   | Metode getInput       | - Pengujian input bilangan bulat yang valid.                             |
+|     |                       | - Pengujian dengan operand pertama bukan angka.                         |
+|     |                       | - Pengujian dengan operand kedua bukan angka.                           |
+| 3   | Metode validateOperation | - Pengujian dengan operator penambahan yang valid.                     |
+|     |                            | - Pengujian dengan operator pengurangan yang valid.                     |
+|     |                            | - Pengujian dengan operator perkalian yang valid.                      |
+|     |                            | - Pengujian dengan operator pembagian yang valid.                      |
+|     |                            | - Pengujian dengan pilihan operator di luar rentang yang valid.        |
+| 4   | Metode validateDivision   | - Pengujian pembagian dengan nol.                                      |
+|     |                            | - Pengujian pembagian dengan pembagi bukan nol.                        |
+| 5   | Kelas CalculatorOperations | - Pengujian metode calculate yang mencakup semua operasi aritmatika.    |
+|     |                            | - Pengujian metode tambah dengan bilangan bulat positif dan negatif.   |
+|     |                            | - Pengujian metode kurang dengan bilangan bulat positif dan negatif.   |
+|     |                            | - Pengujian metode kali dengan bilangan bulat positif, negatif, dan nol.|
+|     |                            | - Pengujian metode bagi dengan bilangan bulat positif dan pembagian dengan nol.|
 
-### Metode getInput
-- Pengujian input bilangan bulat yang valid.
-- Pengujian dengan operand pertama bukan angka.
-- Pengujian dengan operand kedua bukan angka.
-
-### Metode validateOperation
-- Pengujian dengan operator penambahan yang valid.
-- Pengujian dengan operator pengurangan yang valid.
-- Pengujian dengan operator perkalian yang valid.
-- Pengujian dengan operator pembagian yang valid.
-- Pengujian dengan pilihan operator di luar rentang yang valid.
-
-### Metode validateDivision
-- Pengujian pembagian dengan nol.
-- Pengujian pembagian dengan pembagi bukan nol.
-
-### Kelas CalculatorOperations
-- Pengujian metode calculate yang mencakup semua operasi aritmatika.
-- Pengujian metode tambah dengan bilangan bulat positif dan negatif.
-- Pengujian metode kurang dengan bilangan bulat positif dan negatif.
-- Pengujian metode kali dengan bilangan bulat positif dan negatif serta nol.
-- Pengujian metode bagi dengan bilangan bulat positif dan pembagian dengan nol.
 
 ## Getting Started 
 ### How To Use
