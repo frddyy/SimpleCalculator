@@ -44,7 +44,7 @@ Program kalkulator sederhana kelompok kami diujikan secara metode per-method den
 
 ## Tabel Tujuan Pengujian
 
-| No. | Metode                | Tujuan Pengujian                                                         |
+| No. | Item Pengujian               | Tujuan Pengujian                                                         |
 | --- | --------------------- | ------------------------------------------------------------------------- |
 | 1   | Metode main           | - Mengujikan operasi yang valid dengan bilangan yang sesuai.             |
 |     |                       | - Pengujian dengan operand pertama tidak valid.                          |
