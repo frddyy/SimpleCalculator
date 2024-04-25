@@ -29,17 +29,48 @@ Simple Calculator merupakan sebuah program kalkulator sederhana yang memungkinka
 
 ### Method Aplikasi
 Program kalkulator sederhana kelompok kami diujikan secara methode per-method dengan daftar item uji sebagai berikut:
-| No. | Nama Class | Nama Method |
+| No. | Nama Class | Nama Method | Jumlah Test Case |
 | :---: | :--------- | :----------- |
-| 1 | Calculator | main |
-|   |         | getInput|
-|   |         | validateOperation |
-|   |         | validateDivision |
-| 2 | CalculatorOperation | calculate |
-|   |         | tambah|
-|   |         | kurang |
-|   |         | kali |
-|   |         | bagi |
+| 1 | Calculator | main | 3 |
+|   |         | getInput| 3 |
+|   |         | validateOperation | 5 |
+|   |         | validateDivision | 2 |
+| 2 | CalculatorOperation | calculate | 5 |
+|   |         | tambah | 1 | 
+|   |         | kurang | 1 |
+|   |         | kali | 1 |
+|   |         | bagi | 1 |
+
+## Tabel Tujuan Pengujian
+
+### Metode main
+- Mengujikan operasi yang valid dengan bilangan yang sesuai.
+- Pengujian dengan operand pertama tidak valid.
+- Pengujian dengan operand kedua tidak valid.
+- Pengujian dengan pilihan operator yang tidak valid.
+
+### Metode getInput
+- Pengujian input bilangan bulat yang valid.
+- Pengujian dengan operand pertama bukan angka.
+- Pengujian dengan operand kedua bukan angka.
+
+### Metode validateOperation
+- Pengujian dengan operator penambahan yang valid.
+- Pengujian dengan operator pengurangan yang valid.
+- Pengujian dengan operator perkalian yang valid.
+- Pengujian dengan operator pembagian yang valid.
+- Pengujian dengan pilihan operator di luar rentang yang valid.
+
+### Metode validateDivision
+- Pengujian pembagian dengan nol.
+- Pengujian pembagian dengan pembagi bukan nol.
+
+### Kelas CalculatorOperations
+- Pengujian metode calculate yang mencakup semua operasi aritmatika.
+- Pengujian metode tambah dengan bilangan bulat positif dan negatif.
+- Pengujian metode kurang dengan bilangan bulat positif dan negatif.
+- Pengujian metode kali dengan bilangan bulat positif dan negatif serta nol.
+- Pengujian metode bagi dengan bilangan bulat positif dan pembagian dengan nol.
 
 ## Getting Started 
 ### How To Use

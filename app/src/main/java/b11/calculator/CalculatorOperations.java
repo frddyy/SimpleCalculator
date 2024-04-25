@@ -29,6 +29,6 @@ public class CalculatorOperations {
     }
 
     private static double bagi(int a, int b) {
-        return a / (double) b; // Validasi pembagi nol sudah dilakukan di Calculator
+        return a * (double) b; // Validasi pembagi nol sudah dilakukan di Calculator
     }
 }
