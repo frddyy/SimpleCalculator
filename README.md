@@ -53,7 +53,7 @@ Program kalkulator sederhana kelompok kami diujikan secara metode per-method den
 | 2   | Method `getInput`       | - Pengujian input bilangan bulat yang valid.                             |
 |     |                       | - Pengujian dengan operand pertama bukan angka.                         |
 |     |                       | - Pengujian dengan operand kedua bukan angka.                           |
-| 3   | MMethod `validateOperation` | - Pengujian dengan operator penambahan yang valid.                     |
+| 3   | Method `validateOperation` | - Pengujian dengan operator penambahan yang valid.                     |
 |     |                            | - Pengujian dengan operator pengurangan yang valid.                     |
 |     |                            | - Pengujian dengan operator perkalian yang valid.                      |
 |     |                            | - Pengujian dengan operator pembagian yang valid.                      |
