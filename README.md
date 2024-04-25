@@ -60,11 +60,11 @@ Program kalkulator sederhana kelompok kami diujikan secara metode per-method den
 |     |                            | - Pengujian dengan pilihan operator di luar rentang yang valid.        |
 | 4   | Metode validateDivision   | - Pengujian pembagian dengan nol.                                      |
 |     |                            | - Pengujian pembagian dengan pembagi bukan nol.                        |
-| 5   | Kelas CalculatorOperations | - Pengujian metode calculate yang mencakup semua operasi aritmatika.    |
-|     |                            | - Pengujian metode tambah dengan bilangan bulat positif dan negatif.   |
-|     |                            | - Pengujian metode kurang dengan bilangan bulat positif dan negatif.   |
-|     |                            | - Pengujian metode kali dengan bilangan bulat positif, negatif, dan nol.|
-|     |                            | - Pengujian metode bagi dengan bilangan bulat positif dan pembagian dengan nol.|
+| 5   | Kelas CalculatorOperations | - Pengujian metode `calculate` yang mencakup semua operasi aritmatika.    |
+|     |                            | - Pengujian metode `tambah` dengan bilangan bulat positif dan negatif.   |
+|     |                            | - Pengujian metode `kurang` dengan bilangan bulat positif dan negatif.   |
+|     |                            | - Pengujian metode `kali` dengan bilangan bulat positif, negatif, dan nol.|
+|     |                            | - Pengujian metode `bagi` dengan bilangan bulat positif dan pembagian dengan nol.|
 
 
 ## Getting Started 
