@@ -28,18 +28,19 @@ Simple Calculator merupakan sebuah program kalkulator sederhana yang memungkinka
   Untuk informasi lebih lanjut -> [Kunjungi situs JUnit](https://junit.org/) untuk informasi lebih lanjut.
 
 ### Method Aplikasi
-Program kalkulator sederhana kelompok kami diujikan secara methode per-method dengan daftar item uji sebagai berikut:
-| No. | Nama Class | Nama Method | Jumlah Test Case |
-| :---: | :--------- | :----------- |
-| 1 | Calculator | main | 3 |
-|   |         | getInput| 3 |
-|   |         | validateOperation | 5 |
-|   |         | validateDivision | 2 |
-| 2 | CalculatorOperation | calculate | 5 |
-|   |         | tambah | 1 | 
-|   |         | kurang | 1 |
-|   |         | kali | 1 |
-|   |         | bagi | 1 |
+Program kalkulator sederhana kelompok kami diujikan secara metode per-method dengan daftar item uji sebagai berikut:
+
+| No. | Nama Class          | Nama Method         | Jumlah Test Case |
+| --- | ------------------- | ------------------- | ---------------- |
+| 1   | Calculator          | main                | 3                |
+|     |                     | getInput            | 3                |
+|     |                     | validateOperation   | 5                |
+|     |                     | validateDivision    | 2                |
+| 2   | CalculatorOperation | calculate           | 5                |
+|     |                     | tambah              | 1                |
+|     |                     | kurang              | 1                |
+|     |                     | kali                | 1                |
+|     |                     | bagi                | 1                |
 
 ## Tabel Tujuan Pengujian
 
