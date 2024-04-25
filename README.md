@@ -7,19 +7,22 @@ Simple Calculator merupakan sebuah program kalkulator sederhana yang memungkinka
 * Ghessa Theniana - [211524042]
 * Mochamad Ferdy Fauzan - [211524049]
 
-## Tools 
-* [![Gradle](https://img.shields.io/badge/Gradle-8.7-blue)](https://gradle.org/)
+## Technologies & Tools 
+* **Repository Management** : Git
+* **IDE** : Visual Studio Code
+* **CLI** : Command Prompt (CMD) / Powershell (Windows)
+* **Build Tools** : [![Gradle](https://img.shields.io/badge/Gradle-8.7-blue)](https://gradle.org/)
   Kami menggunakan Tools Gradle untuk mengelola proyek Java kami secara lebih efisien. 
   Versi Gradle yang kelompok kami gunakan adalah 8.7. 
   Untuk informasi lebih lanjut -> [Kunjungi situs Gradle](https://gradle.org/).\
 
-* [![Java](https://img.shields.io/badge/Java-17.0.10%202024--01--16%20LTS-red)](https://www.java.com/)
+* **Programming Language** : [![Java](https://img.shields.io/badge/Java-17.0.10%202024--01--16%20LTS-red)](https://www.java.com/)
   Dalam pengembangan aplikasi kalkulator ini, kami menggunakan bahasa pemrograman Java. 
   Kami memilih bahasa pemrograman ini karena memudahkan dari segi pengembangan dan fungsionalitas yang diharapkan. Banyaknya referensi yang dapat kami gunakan juga menjadi faktor untuk penentuan penggunaan bahasa pemrograman ini.
   Versi java yang kami gunakan adalah Java 17.0.10 2024-01-16 LTS. 
   Untuk informasi lebih lanjut -> [Kunjungi situs Java](https://www.java.com/) untuk informasi lebih lanjut.
 
-* [![JUnit Jupiter](https://img.shields.io/badge/JUnit%20Jupiter-5.9.1-green)](https://junit.org/)
+* **Unit Testing** : [![JUnit Jupiter](https://img.shields.io/badge/JUnit%20Jupiter-5.9.1-green)](https://junit.org/)
   JUnit membantu kami untuk membuat test script dan menjalankan unit test dalam proyek Java Kalkulator sederhana. 
   Versi JUnit yang digunakan adalah JUnit Jupiter 5.9.1. 
   Untuk informasi lebih lanjut -> [Kunjungi situs JUnit](https://junit.org/) untuk informasi lebih lanjut.
@@ -40,20 +43,38 @@ Program kalkulator sederhana kelompok kami diujikan secara methode per-method de
 
 ## Getting Started 
 ### How To Use
-1. Lakukan instalasi Java JDK versi 17 atau versi terbarunya.
-2. Pastikan instalasi tersebut berhasil dan dapat digunakan pada perangkat anda.
-3. Clone repository ini ke perangkat anda dengan cara:
+1. Lakukan instalasi Java JDK min versi 11 atau versi terbarunya (disarankan menggunakan versi 17 atau 21) pada halaman (https://www.oracle.com/id/java/technologies/downloads/) .
+2. Lakukan instalasi Gradle (disarankan menggunakan versi 8.7) pada halaman (https://gradle.org/releases/).
+3. Pastikan instalasi tersebut berhasil.
+4. Tambahkan Java dan Gradle dengan melakukan set environment variables pada desktop anda.
+5. Pastikan Java dan Gradle dapat digunakan pada perangkat anda dengan mengetikkan 'java --version' dan 'gradle --version'.
+6. Jika sudah berhasil, clone repository ini ke perangkat anda dengan cara:
 ```
 git clone https://github.com/frddyy/SimpleCalculator.git
 ```
-5. Open project yang telah di clone menggunakan IDE favorit Anda. Saya sarankan menggunakan Visual Studio Code agar lebih mudah.
-   
+7. Open project yang telah di clone menggunakan IDE favorit Anda. Saya sarankan menggunakan Visual Studio Code agar lebih mudah.
+
+### How To Push Your Change
+Untuk melakukan push setiap kali terdapat update atau perubahan kode anda, lakukan dengan step berikut : 
+*Notes* Pastikan untuk selalu menjalankan perintah 'git pull' terlebih dahulu saat ingin melakukan perubahan.
+
+1. Tambahkan file yang telah diubah 
+```
+git add .
+```
+2. Commit file yang ditambahkan menggunakan keterangan singkat setelah command -m 
+```
+git commit -m "keterangan singkat terhadap perubahan anda"
+```
+3. Lalu push commit anda ke repository 
+```
+git push 
+```
+
 ### Script For Run Program
 ```
 ./gradle run
 ```
-
-
 ### Script For Testing Program   
 Junit
 ```
